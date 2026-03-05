@@ -1,6 +1,9 @@
 from itertools import product
 import networkx as nx
 
+def suma(a,b):
+  return a+b
+
 def is_hamltonian_cycle(graph, cycle):
   """Checks if cycle is a hamiltonian cycle in graph
   graph is a Networkx graph, and cycle is a list of verticex"""
